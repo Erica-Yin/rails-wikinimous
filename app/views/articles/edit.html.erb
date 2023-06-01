@@ -1,0 +1,8 @@
+<div class="container px-4 pt-4">
+  <h1>Edit: <%= @article.title %></h1>
+  <%= render 'form', article: @article %>
+  <br>
+  <%= link_to articles_path, class:'btn btn-light' do %>
+    <i class="fa-solid fa-angles-left"></i> Back to articles
+  <% end %>
+</div>
